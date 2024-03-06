@@ -19,8 +19,13 @@ func (c *ContaCorrente) Sacar(valorDoSaque float64) string {
 	}
 }
 func (c *ContaCorrente) Depositar(valorDoDeposito float64) string {
-	c.saldo += valorDoDeposito
-	return fmt.Sprintf("Deposito no valor de %.2f R$ realizado com sucesso", valorDoDeposito)
+	podeDepositar := valorDoDeposito > 0
+	if podeDepositar {
+		c.saldo += valorDoDeposito
+		return fmt.Sprintf("Deposito no valor de %.2f R$ realizado com sucesso", valorDoDeposito)
+	} else {
+		return "Insira um número positivo"
+	}
 }
 
 func main() {
