@@ -1,1 +1,15 @@
-
+04/03/2024 18:42:49 - https://httpbin.org/status/200 - online: true
+04/03/2024 18:42:50 - https://httpbin.org/status/400 - online: false
+04/03/2024 18:42:50 - https://httpbin.org/status/203 - online: false
+04/03/2024 18:42:50 - https://alura.com.br/ - online: true
+04/03/2024 18:42:51 - https://instagram.com/ - online: true
+04/03/2024 18:42:56 - https://httpbin.org/status/200 - online: true
+04/03/2024 18:42:56 - https://httpbin.org/status/400 - online: false
+04/03/2024 18:42:56 - https://httpbin.org/status/203 - online: false
+04/03/2024 18:42:56 - https://alura.com.br/ - online: true
+04/03/2024 18:42:57 - https://instagram.com/ - online: true
+04/03/2024 18:43:02 - https://httpbin.org/status/200 - online: true
+04/03/2024 18:43:02 - https://httpbin.org/status/400 - online: false
+04/03/2024 18:43:02 - https://httpbin.org/status/203 - online: false
+04/03/2024 18:43:02 - https://alura.com.br/ - online: true
+04/03/2024 18:43:03 - https://instagram.com/ - online: true
